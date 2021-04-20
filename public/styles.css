@@ -1,0 +1,253 @@
+body {
+    min-height: 100vh;
+    background-color: rgb(241, 243, 242);
+}
+.card {
+    background-color: rgb(229, 231, 230);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.top-button {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 0.3s;
+    padding: 5px;
+    z-index: 99;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+.purple {
+    color: #6943f5 !important;
+}
+.purple-link {
+    color: white;
+    text-decoration: underline;
+}
+footer {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #4b4848;
+
+}
+.close-button {
+    position: absolute;
+    top: 0.2rem;
+    right: 0.2rem;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+}
+
+.close-button:hover {
+    transform: scale(1.2);
+}
+.nav-item {
+    font-size: 1.1rem;
+}
+.fancy-font {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+footer .fancy-font {
+    font-size: 1.2rem;
+}
+
+.normal-font {
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.bt-fn, .btn-round {
+    border-radius: 50px;
+}
+
+a.bt-fn, .btn-round {
+    color: white !important;
+}
+.bt-fn {
+    background-color: #6943f5 !important;
+    border-color: #6943f5 !important;
+}
+.b-none {
+    border: none;
+}
+.table-links {
+    display: flex;
+    justify-content: space-around;
+    border: none !important;
+}
+.bt-fn:hover {
+    background-color: #4e20f5 !important;
+}
+.bt-fn-solo {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bt-fn-search {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.border-spacer {
+    margin-top: 1rem;
+    border-top: 1px solid rgb(153, 152, 152);
+}
+
+.divide-spacer {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(153, 152, 152);
+}
+
+h2,h1,h3
+ {
+    font-family: 'Cormorant Garamond', serif;
+ }
+
+h2 .btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h2-underline {
+    border-bottom: 1px solid #6943f5;
+}
+
+div.bg-secondary input, div.bg-secondary textarea, div.bg-secondary select, div.bg-secondary .custom-input, div.bg-secondary .custom-input-right {
+    background-color: rgb(236, 234, 234) !important;
+}
+.custom-input-right, .custom-input-left {
+    font-weight: bold;
+}
+
+.card-holder div.card {
+    margin: 1rem;
+}
+.error-feedback {
+    color: rgb(189, 25, 25);
+}
+.small-text {
+    font-size: 0.7rem;
+}
+.icon-large {
+    font-size: 2rem;
+}
+.card-button-container {
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+}
+
+.alert-purple {
+    background-color: #6943f5;
+    color: white;
+}
+
+.alert-purple .close-button {
+    color: white;
+}
+
+.displaydate {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.logo-img {
+    width: 32px;
+}
+.card-icon {
+    width: 8rem;
+    height: 5rem;
+}
+
+.counter {
+    border-radius: 25%;
+    width: 10%;
+    background-color: seagreen;
+    text-align: center;
+}
+
+.login-box {
+    width: 22rem;
+}
+
+.login-logo {
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+}
+.login-logo img {
+    width: 50px;
+}
+.large-card {
+    width: 75%;
+}
+.fixed-carousel {
+    width: 100%;
+    height: 400px;
+}
+.carousel-image {
+    margin: auto;
+    width: 300px;
+}
+.carousel-indicators li {
+    background-color: #6943f5;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.horizontal-list li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.horizontal-list a, footer .fancy-font {
+    text-decoration: none;
+    color: white;
+}
+
+.horizontal-list a:hover, footer .fancy-font:hover {
+    color:#896bf5;
+}
+.red-border {
+    border: 2px solid red;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        position: fixed;
+        z-index: 50;
+        width: 100%;
+    }
+
+    main {
+        margin-top: 65px !important;
+    }
+}
